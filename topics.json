@@ -1,0 +1,48 @@
+{"topics": [
+        {"tag": "welcome",
+         "patterns": ["hi", "hello", "hey", "good afternoon", "good evening", "good morning"],
+         "responses": ["Hello!", "Hi!", "Welcome!"],
+         "context_set": ""
+        },
+        {"tag": "farewell",
+         "patterns": ["bye", "see you later", "goodbye", "see ya"],
+         "responses": ["Bye!", "See you around!", "Goodbye!", "Take care!"],
+         "context_set": ""
+        },
+        {"tag": "about",
+         "patterns": ["what do you do", "about"],
+         "responses": ["I'm here to tell you everything you need to know about Hope University."],
+         "context_set": ""
+        },
+        {"tag": "your name",
+         "patterns": ["what is your name", "what should I call you", "your name"],
+         "responses": ["I'm just a simple chatbot, not fancy enough to have a name", "I'm a chatbot without a name.", "ChatBot."],
+         "context_set": ""
+        },
+        {"tag": "courses",
+         "patterns": ["courses", "study", "degree", "course", "teach", "what courses do you offer"],
+         "responses": ["Hope University offers a wide range of courses you can study. My favourite one is AI! Here is a full list of courses: https://www.hope.ac.uk/studyathope/coursefinder/", "There is a wealth of BA and BSc courses you can start, see the full list here: https://www.hope.ac.uk/studyathope/coursefinder/ - happy browsing!"],
+         "context_set": ""
+        },
+        {"tag": "contact",
+         "patterns": ["contact", "email", "e-mail", "phone number"],
+         "responses": ["You can contact a specific department by sending them an email to their dedicated email address. Here is a full list: https://www.hope.ac.uk/aboutus/contactus/ . If you want to contact the university by phone, call 0151 291 3000."],
+         "context_set": ""
+        },
+        {"tag": "opening hours",
+         "patterns": ["open", "what time", "hours"],
+         "responses": ["9-5 on weekdays is when the uni is open.", "The university is open from 9am until 5pm on weekdays.", "9.00-17.00 weekdays."],
+         "context_set": ""
+        },
+		{"tag": "location",
+         "patterns": ["location", "find you", "where will i study", "where can i study"],
+         "responses": ["Depending on what course you're doing, you might be interested in finding the Hope park or the Creative Campus. The address for Hope Park is Taggart Avenue L16 9JD, and the address for the Creative Campus is Shaw Street, L6 1HP", "You can find Hope Park at Taggart Avenue L16 9JD and Creative Campus at Shaw Street L6 1HP"],
+         "context_set": ""
+        },
+		{"tag": "campus location",
+         "patterns": ["where are the campuses", "campus", "campues"],
+         "responses": ["You can find Hope Park at Taggart Avenue L16 9JD, Creative Campus at Shaw Street, L6 1HP, and Aigburth Park at St Michael's Road, L17 7JQ"],
+         "context_set": ""
+        }
+   ]
+}
